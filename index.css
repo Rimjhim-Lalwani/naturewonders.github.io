@@ -1,5 +1,3 @@
-
-
 html { overflow-x: hidden; }
 
 body {
@@ -173,13 +171,18 @@ address { font-style: normal; }
     .filters-button-group { text-align: left; }
 }
 
-@media (max-width: 680px) {
-    .tm-contact { flex-direction: column; }
+@media (max-width: 1180px) {
+    .tm-contact { flex-direction: column; 
+    }
     
     .tm-contact-form-container,
-    .tm-contact-info,
-    .tm-contact-header {
+    .tm-contact-info
+    {
         width: 100%;
+       
+    }
+    .tm-contact-header{
+        margin-left:55%;
     }
 
     .tm-contact-form-container { margin-bottom: 20px; }
@@ -188,15 +191,14 @@ address { font-style: normal; }
 
 @media (max-width: 545px) {
     .tm-about { flex-direction: column; }
-}
-@media (max-width: 545px) {
-    .tm-gallery{
-        flex-direction:column;}
+    .tm-gallery { flex-direction: column;
+    align-items: center; }
+    
 }
 
 @media (max-width: 489px) {
     .tm-gallery-item {
-        width: 48%;
+        width: 68%;
         margin: 1%;
         height: auto;
     }
