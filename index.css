@@ -189,6 +189,10 @@ address { font-style: normal; }
 @media (max-width: 545px) {
     .tm-about { flex-direction: column; }
 }
+@media (max-width: 545px) {
+    .tm-gallery{
+        flex-direction:column;}
+}
 
 @media (max-width: 489px) {
     .tm-gallery-item {
